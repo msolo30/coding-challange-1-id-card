@@ -1,3 +1,11 @@
+* {
+
+  margin: 4px;
+
+  padding: 1px;
+
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -10,7 +18,7 @@ body {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding-right: 15px;
     margin: 0;
   }
   
@@ -20,8 +28,8 @@ body {
   }
   
 .line{
-  height: 20px;
+  height: 15px;
   width: 100%;
-  background-color: grey;
+  background-color: rgb(119, 138, 180);
 }
   
